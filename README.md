@@ -8,7 +8,7 @@
 1. Create a new branch to work on.
 1. Complete the given tasks mentioned below.
 
-Work on the file `lib/challenge.js`. You don't have to create a pull request, but if you want feedback on your code, it's recommended to create one.
+Work on the file `src/rot13.js`. You don't have to create a pull request, but if you want feedback on your code, it's recommended to create one.
 
 If you need help with forking and cloning, you can refer to the FAQs [here](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/) on forking and cloning.
 
@@ -68,6 +68,5 @@ cipher.encode('Hello Jeff'); //=> 'Gdkkn Idee'
 
  test strings for different input values.
 
-**NOTE**: Before debugging any issues, make sure to run `grunt nag` as it detects common sources of errors.
 
-Test your code by running `grunt test`.
+Test your code by running `npm test`.
